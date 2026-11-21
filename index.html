@@ -1,1 +1,89 @@
 <img src="./logo.jpg" alt="Banana Cosmetics" style="max-width: 180px; height: auto;" />
+<section id="banana-catalog" style="font-family: system-ui, -apple-system, sans-serif; max-width: 520px; margin: 0 auto; padding: 16px; color: #2b1a10;">
+  <div style="text-align: center; margin-bottom: 18px;">
+    <p style="margin: 0 0 6px; font-size: 13px; font-weight: 600; color: #6b4423;">100% Originales • Importados USA • @bananacosmeticssmx</p>
+    <span style="display: inline-block; background: #fff3cd; color: #5c3a00; padding: 6px 12px; border-radius: 999px; font-size: 12px; font-weight: 600;">
+      Probadores disponibles en persona
+    </span>
+  </div>
+
+  <!-- Hook Product -->
+  <div style="background: #fffdf7; border: 1px solid #ead8b1; border-radius: 14px; padding: 16px; margin-bottom: 16px;">
+    <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #b45309;">Más buscado</div>
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-top: 4px;">
+      <h3 style="margin: 0; font-size: 18px;">Maybelline SuperStay Teddy Tint</h3>
+      <strong style="font-size: 18px;">$140 MXN</strong>
+    </div>
+    <p style="margin: 6px 0 10px; font-size: 13px; color: #574336;">Tinta suave aterciopelada con color modulable.</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      <button type="button" onclick="addToCart('Teddy Tint - Mascara Tear', 140)" style="padding: 7px 11px; border-radius: 8px; border: 1px solid #d6b97c; background: #fff; cursor: pointer; font-size: 12px;">+ Mascara Tear</button>
+      <button type="button" onclick="addToCart('Teddy Tint - Knee High', 140)" style="padding: 7px 11px; border-radius: 8px; border: 1px solid #d6b97c; background: #fff; cursor: pointer; font-size: 12px;">+ Knee High</button>
+      <button type="button" onclick="addToCart('Teddy Tint - Current Mood', 140)" style="padding: 7px 11px; border-radius: 8px; border: 1px solid #d6b97c; background: #fff; cursor: pointer; font-size: 12px;">+ Current Mood</button>
+      <button type="button" onclick="addToCart('Teddy Tint - Skinny Dip', 140)" style="padding: 7px 11px; border-radius: 8px; border: 1px solid #d6b97c; background: #fff; cursor: pointer; font-size: 12px;">+ Skinny Dip</button>
+    </div>
+  </div>
+
+  <!-- Serums / Problem Solvers -->
+  <div style="background: #ffffff; border: 1px solid #e5e7eb; border-radius: 14px; padding: 16px; margin-bottom: 16px;">
+    <h3 style="margin: 0 0 10px; font-size: 17px;">Sérums (Elige según tu piel)</h3>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #faf8f5; border-radius: 10px;">
+        <div>
+          <div style="font-weight: 600; font-size: 14px;">Garnier Sérum Vitamina C</div>
+          <div style="font-size: 12px; color: #6b7280;">Manchitas y luminosidad • $200 MXN</div>
+        </div>
+        <button type="button" onclick="addToCart('Garnier Sérum Vitamina C', 200)" style="padding: 8px 12px; border: none; border-radius: 8px; background: #4a2511; color: #fff; font-weight: 600; cursor: pointer;">Agregar</button>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #faf8f5; border-radius: 10px;">
+        <div>
+          <div style="font-weight: 600; font-size: 14px;">The Ordinary Niacinamide 10% + Zinc 1%</div>
+          <div style="font-size: 12px; color: #6b7280;">Poros y control de grasa • $255 MXN</div>
+        </div>
+        <button type="button" onclick="addToCart('The Ordinary Niacinamide', 255)" style="padding: 8px 12px; border: none; border-radius: 8px; background: #4a2511; color: #fff; font-weight: 600; cursor: pointer;">Agregar</button>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #faf8f5; border-radius: 10px;">
+        <div>
+          <div style="font-weight: 600; font-size: 14px;">The Ordinary Salicylic Acid 2%</div>
+          <div style="font-size: 12px; color: #6b7280;">Imperfecciones y textura • $255 MXN</div>
+        </div>
+        <button type="button" onclick="addToCart('The Ordinary Salicylic Acid', 255)" style="padding: 8px 12px; border: none; border-radius: 8px; background: #4a2511; color: #fff; font-weight: 600; cursor: pointer;">Agregar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Everyday & Add-ons -->
+  <div style="background: #ffffff; border: 1px solid #e5e7eb; border-radius: 14px; padding: 16px; margin-bottom: 16px;">
+    <h3 style="margin: 0 0 10px; font-size: 17px;">Labios, Cuidado y Brochas</h3>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #faf8f5; border-radius: 10px;">
+        <div>
+          <div style="font-weight: 600; font-size: 14px;">Maybelline SuperStay Matte Ink</div>
+          <div style="font-size: 12px; color: #6b7280;">Larga duración mate • $165 MXN</div>
+        </div>
+        <button type="button" onclick="addToCart('Maybelline Matte Ink', 165)" style="padding: 8px 12px; border: none; border-radius: 8px; background: #4a2511; color: #fff; font-weight: 600; cursor: pointer;">Agregar</button>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #faf8f5; border-radius: 10px;">
+        <div>
+          <div style="font-weight: 600; font-size: 14px;">Lip Oil</div>
+          <div style="font-size: 12px; color: #6b7280;">Brillo hidratante • $185 MXN</div>
+        </div>
+        <button type="button" onclick="addToCart('Lip Oil', 185)" style="padding: 8px 12px; border: none; border-radius: 8px; background: #4a2511; color: #fff; font-weight: 600; cursor: pointer;">Agregar</button>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #faf8f5; border-radius: 10px;">
+        <div>
+          <div style="font-weight: 600; font-size: 14px;">Lip Stain</div>
+          <div style="font-size: 12px; color: #6b7280;">Color ligero duradero • $195 MXN</div>
+        </div>
+        <button type="button" onclick="addToCart('Lip Stain', 195)" style="padding: 8px 12px; border: none; border-radius: 8px; background: #4a2511; color: #fff; font-weight: 600; cursor: pointer;">Agregar</button>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #faf8f5; border-radius: 10px;">
+        <div>
+          <div style="font-weight: 600; font-size: 14px;">Primer</div>
+          <div style="font-size: 12px; color: #6b7280;">Preparación antes del maquillaje • $255 MXN</div>
+        </div>
+        <button type="button" onclick="addToCart('Primer', 255)" style="padding: 8px 12px; border: none; border-radius: 8px; background: #4a2511; color: #fff; font-weight: 600; cursor: pointer;">Agregar</button>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background: #faf8f5; border-radius: 10px;">
+        <div>
+          <div style="font-weight: 600; font-size: 14px;">Centella Sunscreen</div>
+          <div style="font-size: 12px; color: #6b7280;">Protección solar diaria •
